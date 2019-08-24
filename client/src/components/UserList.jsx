@@ -8,10 +8,8 @@ import { COLUMNS } from '../constants/user';
 
 const useStyles = makeStyles(theme => ({
   container: {
-    marginTop: theme.spacing(4),
-  },
-  table: {
-    marginTop: theme.spacing(4),
+    marginTop: theme.spacing(2),
+    marginBottom: theme.spacing(2),
   },
 }));
 
@@ -38,7 +36,6 @@ function UserList(props) {
     <Container className={classes.container} maxWidth="md">
       <MaterialTable
         title="User List"
-        className={classes.table}
         columns={COLUMNS}
         data={users}
         actions={[

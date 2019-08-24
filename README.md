@@ -14,6 +14,13 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
   touch .env
     PORT=4000
     MONGODB_URI=<Paste connection string>
-  yarn && yarn start
-  cd client && yarn && yarn start
+  yarn
+  cd client && yarn
+```
+
+## Run Project Locally
+
+```
+  terminal 1: yarn dev
+  terminal 2: cd cliend && yarn start
 ```
